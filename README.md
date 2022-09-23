@@ -10,9 +10,9 @@ This GitHub provides the source code for the paper "Exploring Facial Expression 
 ## Run information
 
 - Train the AU models with the scripts in **/Models**:
-	- Model_Freeze.py
-	- Model_VGG8.py
-	- Model_ResNet7.py
+	- **Model_Freeze.py**
+	- **Model_VGG8.py**
+	- **Model_ResNet7.py**
 	
 - Use in **/Models/Models_TripleLoss.py** to create and extract the embeddings related to AU and PD.
 - Use in **/Features/FA_Features.py** to extract the embeddings related to FA.

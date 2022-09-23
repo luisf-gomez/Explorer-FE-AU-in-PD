@@ -9,18 +9,18 @@ This GitHub provides the source code for the paper "Exploring Facial Expression 
 
 ## Run information
 
-- Train the AU models with the scripts in /Models:
+- Train the AU models with the scripts in **/Models**:
 	- Model_Freeze.py
 	- Model_VGG8.py
 	- Model_ResNet7.py
 	
-- Use in /Models/Models_TripleLoss.py to create and extract the embeddings related to AU and PD.
-- Use in /Features/FA_Features.py to extract the embeddings related to FA.
+- Use in **/Models/Models_TripleLoss.py** to create and extract the embeddings related to AU and PD.
+- Use in **/Features/FA_Features.py** to extract the embeddings related to FA.
 
-- Inside all the /Features/\*/\*/ folders, you can run Optimization_SVM_\*.py files to train models.
+- Inside all the **/Features/\*/\*/** folders, you can run **Optimization_SVM_\*.py** files to train models.
 
-- /Features/BestParam.py check the models trained and inform the best hyperparameters to the SVM-linear and SVM-rbf
+- **/Features/BestParam.py** check the models trained and inform the best hyperparameters to the SVM-linear and SVM-rbf
 
-- /Features/25RandCV.py Run 25 CrossValidation Subject-Independent to get a big group of samples to made statistical tests
+- **/Features/25RandCV.py** Run 25 CrossValidation Subject-Independent to get a big group of samples to made statistical tests
 
-- /Features/StatisticalTest/RunStatisticalTests.py run the nonparametrics Kruskall-Wallis test and Mann-Whitney U test with the 25 random CV results
+- **/Features/StatisticalTest/RunStatisticalTests.py** run the nonparametrics Kruskall-Wallis test and Mann-Whitney U test with the 25 random CV results

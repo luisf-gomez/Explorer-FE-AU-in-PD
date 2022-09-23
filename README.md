@@ -7,7 +7,7 @@ This GitHub provides the source code for the paper "Exploring Facial Expression 
 - All the system was probed on Tensorflow=2.3.0 and a NVIDIA GeForce GTX 1080 TI
 - All the datasets and labels used in this work cannot be shared 
 
-## Getting started
+## Run information
 
 - Train the AU models with the scripts in /Models:
 	- Model_Freeze.py
@@ -17,7 +17,7 @@ This GitHub provides the source code for the paper "Exploring Facial Expression 
 - Use in /Models/Models_TripleLoss.py to create and extract the embeddings related to AU and PD.
 - Use in /Features/FA_Features.py to extract the embeddings related to FA.
 
-- Inside all the /Features/*/*/ folders, you can run Optimization_SVM_\*.py files to train models.
+- Inside all the /Features/\*/\*/ folders, you can run Optimization_SVM_\*.py files to train models.
 
 - /Features/BestParam.py check the models trained and inform the best hyperparameters to the SVM-linear and SVM-rbf
 

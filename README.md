@@ -1,11 +1,40 @@
 # Explorer-FE-AU-in-PD
 This GitHub provides the source code for the paper "Exploring Facial Expression and Action Units in Parkinson Disease"
 
+## Support information
+### Computer technical characteristics
+
+- **O.S:** Windows 10
+
+- **Processor:** Intel Core i7 - 7800x
+
+- **GPU:** NVIDIA GeForce GTX 1080TI 
+
+- **Enviroment:** Python 3.8.5 with TensorFlow 2.3.0 
+
+### Training hyperparameters
+
+- **Regularization:** Dropout (0.5 probability) and Early Stopping (10 epoch)
+
+- **Batch size:** 128 Frames (Train with EmotionNet) and 16 frames (Train with FacePark-GITA)
+
+- **Optimizer:** ADAM (Train with EmotionNet) and SGD (Train with FacePark-GITA)
+
+### **FAU Training time:**
+Training times using the Emotionet database took about 28.6 hours and 23.4 hours for models based on ResNet50 architectures and models from scratch, respectively. 
+
+### **From Scratch training time:**
+It took approximately around 30 minutes for each model to train from scratch with the FacePark-GITA database.
+
+### **Features evaluation on SVMs:**
+The grid search for the Support Vector Machines (SVMs) took about 18 minutes for each model based on ResNet50 and 8 minutes for each model from scratch.
+
 ## Prerequisites
 
 - Python 3.8.5 or higher: Preferably a new environment
-- All the system was probed on Tensorflow=2.3.0 and a NVIDIA GeForce GTX 1080 TI
+- All the system was probed on Tensorflow=2.3.0 
 - All the datasets and labels used in this work cannot be shared 
+
 
 ## Run information
 
